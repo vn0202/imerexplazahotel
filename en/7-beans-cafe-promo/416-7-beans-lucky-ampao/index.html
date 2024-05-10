@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr"
+	  class='com_content view-article itemid-624 j33 mm-hover'>
+
+<head>
+
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="angeles city,hotel " />
+  <meta name="author" content="Jerome Quizon" />
+  <meta name="description" content="Imerex Plaza Hotel" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>7 Beans Lucky Ampao</title>
+  <link href="/en/7-beans-cafe-promo/416-7-beans-lucky-ampao" rel="canonical" />
+  <link href="/en/templates/ja_sugite/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/en/templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="/en/templates/ja_sugite/css/legacy-grid.css" type="text/css" />
+  <link rel="stylesheet" href="/en/plugins/system/t3/base-bs3/fonts/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="/en/templates/ja_sugite/css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="/en/templates/ja_sugite/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/en/templates/ja_sugite/css/megamenu.css" type="text/css" />
+  <link rel="stylesheet" href="/en/templates/ja_sugite/css/off-canvas.css" type="text/css" />
+  <link rel="stylesheet" href="/en/templates/ja_sugite/fonts/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700c" type="text/css" />
+  <link rel="stylesheet" href="/en/modules/mod_dj_easy_contact/assets/mod_dj_easy_contact.css" type="text/css" />
+  <link rel="stylesheet" href="/en/modules/mod_dj_easy_contact/assets/style3.css" type="text/css" />
+  <script src="/en/t3-assets/js/js-02d40.js?t=396" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		if(typeof(j2storeURL) == 'undefined') {
+		var j2storeURL = 'http://imerexplazahotel.com/en/';
+		}
+
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+
+(function($){
+	$(document).ready(function(){
+		$("#dj-easy-contact-form-191 .button.submit").click(function(event){
+			event.preventDefault();
+			var form = $(this).parents("form").get(0);
+			var isValid = document.formvalidator.isValid($(this).parents("form").get(0));
+
+			if (isValid) {
+				DJEasyContactSubmit191();
+				return;
+			}
+		});
+
+		window.DJEasyContactSubmit191 = function(){
+			var form = $("#dj-easy-contact-form-191");
+			form.trigger("submit");
+		};
+
+		$("#dj-easy-contact-form-191").submit(function(event){
+			event.preventDefault();
+			var form = $(this);
+			var formData =  form.serialize();
+			jQuery.ajax({
+				type: "POST",
+				async: false,
+				url : form.action,
+				data : formData
+			}).done(function(response) {
+				if(response=="OK"){
+					if(2 == "4"){
+						jQuery( ".modal-body .modal-dj-easy-contact-message" ).append( "<div class='alert alert-success'><button type='button' data-dismiss='alert' class='close'>×</button><div>Thank you for your message</div></div>" );
+						jQuery( ".modal-body .modal-dj-easy-contact-message .alert-error" ).remove();
+						jQuery( ".modal-body .dj-simple-contact-form" ).hide();
+						jQuery( "#modal-dj-easy-contact-box .close, .modal-backdrop" ).click(function() {
+						  jQuery( ".modal-dj-easy-contact-message .alert" ).remove();
+						  jQuery( ".modal-body .dj-simple-contact-form" ).show();
+						});
+					} else{
+						alert("Thank you for your message");
+						jQuery( "#system-message-container .alert" ).remove();
+					}
+					form.find(".dj-simple-contact-form-row input, .dj-simple-contact-form-row textarea").each(function(posi, input){
+						jQuery(input).val("");
+						jQuery("input[type='checkbox']").prop("checked", false);
+					});
+					jQuery(location).attr("href", "http://imerexplazahotel.com/en/2014-08-20-12-09-31");
+				}else{
+					alert(response);
+				}
+			}).fail(function(xhr, status, error) {
+				if (error != "") {
+					alert(error);
+				} else {
+					alert("Something went wrong. Please try again.");
+				}
+			});
+		});
+		if(2 == "4"){
+			jQuery(".dj-easy-contact-modal-button").on("click", function(e) {
+				e.preventDefault();
+				jQuery("html, body").animate({scrollTop: 0}, 500);
+			});
+
+			// copy messages from message container to modal
+			modalBody = jQuery(".modal-body");
+			var submitBtn = modalBody.find(".dj-simple-contact-form .button");
+			submitBtn.click(function(event){
+				var msgCont = jQuery("#system-message-container");
+				var msgContDiv = jQuery("#system-message-container div");
+				if (msgContDiv.length > 0) {
+					var rvMsgCont = jQuery(".modal-body .modal-dj-easy-contact-message");
+					rvMsgCont.html(msgCont.html());
+					msgCont.html(" ");
+				}
+			});
+
+			// modal fix for email label
+			var emailField = modalBody.find(".dj-simple-contact-form-row.email");
+			if (emailField.length > 0) {
+				if (jQuery(".dj-simple-contact-form .email input").val().length == 0) {
+				      jQuery(".dj-simple-contact-form .email input").addClass("empty-email-field");
+				}
+				jQuery( "#modal-dj-easy-contact-box, .dj-simple-contact-form.button" ).click(function() {
+					if (jQuery(".dj-simple-contact-form .email input").val().length == 0) {
+					      jQuery(".dj-simple-contact-form .email input").addClass("empty-email-field");
+					} else {
+						jQuery(".dj-simple-contact-form .email input").removeClass("empty-email-field");
+					}
+				});
+			}
+		}
+	});
+})(jQuery);
+
+            var _extraWatchParams = _extraWatchParams || [];
+            _extraWatchParams.projectId = '90a106ec-c9b3-4864-a4c6-a3c55fc7b63a';
+            (function() {
+                var ew = document.createElement('script'); ew.type = 'text/javascript'; ew.async = true;
+                ew.src = 'https://agent.extrawatch.com/agent/js/ew.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ew, s);
+            })();
+
+  </script>
+  <script type="text/javascript">
+    (function() {
+      var strings = {"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"};
+      if (typeof Joomla == 'undefined') {
+        Joomla = {};
+        Joomla.JText = strings;
+      }
+      else {
+        Joomla.JText.load(strings);
+      }
+    })();
+  </script>
+
+
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/en/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?21I6FDh8lFJxgyEVixv7RU7Z928WNb45';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+<!--End of Zopim Live Chat Script-->
+</head>
+
+<body>
+
+<div class="t3-wrapper features-intro features-intro-1"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+
+<!-- HEADER -->
+<header id="t3-header" class="wrap t3-header">
+	<div class="container">
+		<div class="row">
+
+			<!-- LOGO -->
+			<div class="col-xs-8 col-sm-6 col-md-3 logo">
+				<div class="logo-image">
+					<a href="/en" title="IMEREX">
+													<img class="logo-img" src="/en/images/imerex-web-logo-3.png" alt="IMEREX" />
+																		<span>IMEREX</span>
+					</a>
+					<small class="site-slogan">PLAZA HOTEL</small>
+				</div>
+			</div>
+			<!-- //LOGO -->
+
+							<div class="head-right">
+
+
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+
+
+
+<button class="btn btn-primary off-canvas-toggle " type="button" data-pos="right" data-nav="#t3-off-canvas" data-effect="off-canvas-effect-2">
+  <i class="fa fa-bars"></i>
+</button>
+
+<!-- OFF-CANVAS SIDEBAR -->
+<div id="t3-off-canvas" class="t3-off-canvas ">
+
+  <div class="t3-off-canvas-header">
+    <h2 class="t3-off-canvas-header-title">Sidebar</h2>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  </div>
+
+  <div class="t3-off-canvas-body">
+    <div class="t3-module module_menu " id="Mod163"><div class="module-inner"><div class="module-ct"><ul class="nav  nav-pills nav-stacked ">
+<li class="item-435 parent"><a href="/en/" >Home</a></li><li class="item-589 parent"><a href="/en/rooms" >Rooms</a></li><li class="item-590"><a href="/en/services" >Services</a></li><li class="item-564"><a href="/en/location" >Location</a></li><li class="item-565 parent"><a href="/en/events-promos" >Events</a></li><li class="item-493"><a href="/en/get-in-touch" >Get in Touch</a></li></ul>
+</div></div></div>
+  </div>
+
+</div>
+<!-- //OFF-CANVAS SIDEBAR -->
+
+					</div>
+				</div>
+
+			<!-- MAIN NAVIGATION -->
+			<nav id="t3-mainnav" class="col-sm-6 col-md-9 pull-right navbar navbar-default t3-mainnav">
+
+
+					<div class="t3-navbar navbar-collapse collapse">
+						<div  class="t3-megamenu animate elastic"  data-duration="400" data-responsive="true">
+<ul class="nav navbar-nav level0">
+<li class="dropdown mega" data-id="435" data-level="1">
+<a class=" dropdown-toggle" href="/en/"   data-target="#" data-toggle="dropdown">Home <b class="caret"></b></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul class="mega-nav level1">
+<li  data-id="615" data-level="2">
+<a class="" href="/en/homepage/about-the-hotel"   data-target="#">About the Hotel </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li class="dropdown mega" data-id="589" data-level="1">
+<a class=" dropdown-toggle" href="/en/rooms"   data-target="#" data-toggle="dropdown">Rooms <b class="caret"></b></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul class="mega-nav level1">
+<li  data-id="591" data-level="2">
+<a class="" href="/en/rooms/standard-room"   data-target="#">Standard Room </a>
+
+</li>
+<li  data-id="592" data-level="2">
+<a class="" href="/en/rooms/deluxe-room"   data-target="#">Deluxe Room </a>
+
+</li>
+<li  data-id="593" data-level="2">
+<a class="" href="/en/rooms/executive-room"   data-target="#">Executive Room </a>
+
+</li>
+<li  data-id="617" data-level="2">
+<a class="" href="/en/rooms/business-suite"   data-target="#">Business Suite </a>
+
+</li>
+<li  data-id="618" data-level="2">
+<a class="" href="/en/rooms/honeymoon-suite"   data-target="#">Honeymoon Suite </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li  data-id="590" data-level="1">
+<a class="" href="/en/services"   data-target="#">Services </a>
+
+</li>
+<li  data-id="564" data-level="1">
+<a class="" href="/en/location"   data-target="#">Location </a>
+
+</li>
+<li class="dropdown mega" data-id="565" data-level="1">
+<a class=" dropdown-toggle" href="/en/events-promos"   data-target="#" data-toggle="dropdown">Events <b class="caret"></b></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul class="mega-nav level1">
+<li  data-id="633" data-level="2">
+<a class="" href="/en/events-promos/room-promo"   data-target="#">Hotel Promo </a>
+
+</li>
+<li  data-id="631" data-level="2">
+<a class="" href="/en/events-promos/bel-posto-ristorante"   data-target="#">Bel Posto Ristorante </a>
+
+</li>
+<li  data-id="630" data-level="2">
+<a class="" href="/en/events-promos/7-beans-cafe"   data-target="#">7 Beans Cafe </a>
+
+</li>
+<li  data-id="632" data-level="2">
+<a class="" href="/en/events-promos/the-rooftop"   data-target="#">The RoofTop </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li  data-id="493" data-level="1">
+<a class="" href="/en/get-in-touch"   data-target="#">Get in Touch </a>
+
+</li>
+</ul>
+</div>
+
+					</div>
+
+			</nav>
+			<!-- //MAIN NAVIGATION -->
+
+
+		</div>
+	</div>
+</header>
+<!-- //HEADER -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="t3-mainbody" class="container t3-mainbody">
+	<div class="row">
+
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12 col-md-6  col-md-push-3">
+
+<div class="item-page clearfix">
+
+
+<!-- Article -->
+<article>
+	<header class="article-header clearfix">
+		<h1 class="article-title">
+							<a href="/en/7-beans-cafe-promo/416-7-beans-lucky-ampao"> 7 Beans Lucky Ampao</a>
+					</h1>
+	</header>
+
+	<!-- Aside -->
+	<aside class="article-aside clearfix">
+
+					<dl class="article-info pull-left">
+										<dl class="article-info pull-left">
+
+					<dt class="article-info-term">
+													Details							</dt>
+
+
+										<dd class="category-name" title="Category: 7 Beans Cafe Promo">
+				<i class="fa fa-folder"></i>
+									<a href="/en/7-beans-cafe-promo">7 Beans Cafe Promo</a>							</dd>
+										<dd class="createdby" itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<i class="fa fa-user"></i>
+									<span itemprop="name">Jerome Quizon</span>							</dd>
+								<dd class="published" title="Published: 23 Jan 2020">
+		<i class="fa fa-calendar"></i>
+    23 Jan 2020	</dd>
+
+
+							      <dd class="hits">
+					<span class="icon-eye-open"></span>
+					<meta itemprop="interactionCount" content="UserPageVisits:905" />
+					905			</dd>
+
+	</dl>
+							</dl>
+
+					<div class="btn-group pull-right">
+				<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-cog"></i>
+					<span class="caret"></span> </a>
+				<ul class="dropdown-menu">
+																		<li class="print-icon"> <a href="/en/7-beans-cafe-promo/416-7-beans-lucky-ampao?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="fa fa-print"></span>&#160;Print&#160;</a> </li>
+																			<li class="email-icon"> <a href="/en/component/mailto/?tmpl=component&amp;template=ja_sugite&amp;link=98dd98723747d0d601decccd146774d202b74d81" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="fa fa-envelope"></span> Email</a> </li>
+																					</ul>
+			</div>
+			</aside>
+	<!-- //Aside -->
+
+
+
+
+
+
+
+	<section class="article-content clearfix">
+		<p style="text-align: center;"><img src="/en/images/services/luck-promo.jpg" alt="7BluckyAmpao" width="354" height="500" /></p> 	</section>
+
+				<footer class="article-footer clearfix">
+			<dl class="article-info pull-left">
+													<dd class="hits">
+						Hits: <strong>905</strong>					</dd>
+							</dl>
+		</footer>
+
+
+
+			<hr class="divider-vertical" /><ul class="pager pagenav">
+	<li class="next">
+		<a href="/en/7-beans-cafe-promo/415-7-beans-cafe-unlimited-cold-drink" rel="next">Next &gt;</a>
+	</li>
+</ul>
+
+
+	</article>
+<!-- //Article -->
+
+
+</div>
+		</div>
+		<!-- //MAIN CONTENT -->
+
+		<!-- SIDEBAR 1 -->
+		<div class="t3-sidebar t3-sidebar-1 col-xs-6  col-md-3  col-md-pull-6 ">
+			<div class="t3-module module " id="Mod188"><div class="module-inner"><h3 class="module-title "><span>7 Beans Cafe Promo</span></h3><div class="module-ct"><ul class="latestnews">
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/416-7-beans-lucky-ampao" itemprop="url">
+			<span itemprop="name">7 Beans Lucky Ampao</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/415-7-beans-cafe-unlimited-cold-drink" itemprop="url">
+			<span itemprop="name">7 Beans Cafe Unlimited Cold Drink</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/414-7-beans-cafe-milk-tea" itemprop="url">
+			<span itemprop="name">7 Beans Cafe Milk Tea </span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/413-7-beans-birthday-treat" itemprop="url">
+			<span itemprop="name">7 Beans Birthday Treat</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/412-7-beans-happy-hour" itemprop="url">
+			<span itemprop="name">7 Beans Happy Hour</span></a>
+	</li>
+</ul>
+</div></div></div><div class="t3-module module " id="Mod191"><div class="module-inner"><h3 class="module-title "><span>Contact Us</span></h3><div class="module-ct">
+
+			<div class="dj-simple-contact-form style-3  email-field-active badge-bottomleft">
+				<form class="easy-contact-form form-validate disabled-captcha" id="dj-easy-contact-form-191" action="http://imerexplazahotel.com/en/7-beans-cafe-promo/416-7-beans-lucky-ampao" method="post">
+					<span class="dj-simple-contact-form-introtext"></span>
+
+
+					<div class="dj-simple-contact-form">
+
+												<div class="dj-simple-contact-form-row name">
+							<input placeholder='Name' class="dj-simple-contact-form inputbox required " type="text" name="dj_name" id="dj_name-191" value="" required="required" />
+														<label for="dj_name-191" style="display: none;">Name</label>
+						</div>
+
+																			<div class="dj-simple-contact-form-row email">
+								<input placeholder='Email' class="dj-simple-contact-form inputbox required validate-email " type="email" name="dj_email" id="dj_email-191" value="" required="required" />
+																<label for="dj_email-191" style="display: none;">Email</label>
+							</div>
+
+																			<div class="dj-simple-contact-form-row message">
+							<textarea placeholder='Message' class="dj-simple-contact-form textarea required " name="dj_message" id="dj_message-191" cols="4" rows="4" required="required"></textarea>
+														<label for="dj_message-191" style="display: none;">Message</label>
+							</div>
+
+
+
+
+
+												<input type="hidden" name="dj-easy-contact-send-191" value="true">
+													<div class="button-box">
+								<input id="dj-easy-contact-send-191" disabled class="dj-simple-contact-form button submit " type="submit" value="Send" />
+							</div>
+											</div>
+				</form>
+			</div>
+
+</div></div></div>
+		</div>
+		<!-- //SIDEBAR 1 -->
+
+		<!-- SIDEBAR 2 -->
+		<div class="t3-sidebar t3-sidebar-2 col-xs-6  col-md-3 ">
+			<div class="t3-module module " id="Mod189"><div class="module-inner"><div class="module-ct"><iframe src="http://www.facebook.com/plugins/likebox.php?id=342860802908853&amp;width=235&amp;height=700&amp;connections=10&amp;stream=true&amp;header=true&amp;colorscheme=dark&amp;" scrolling="no" frameborder="0" style="overflow:hidden;width:235px;height:700px; allowTransparency: true;background-color:#333333"></iframe></div></div></div>
+		</div>
+		<!-- //SIDEBAR 2 -->
+
+	</div>
+</div>
+
+
+
+<!-- BACK TOP TOP BUTTON -->
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+  <button class="btn btn-primary" title="Back to Top"> <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'
+            'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+            <svg height="20" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"
+                 width="20" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="256.5,64.5 64.5,256.5 176.5,256.5 176.5,448.5 336.5,448.5 336.5,256.5 448.5,256.5 "/></svg></button>
+</div>
+
+<script type="text/javascript">
+(function($) {
+	// Back to top
+	$('#back-to-top').on('click', function(){
+		$("html, body").animate({scrollTop: 0}, 500);
+		return false;
+	});
+})(jQuery);
+</script>
+<!-- BACK TO TOP BUTTON -->
+
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+
+
+			<!-- FOOT NAVIGATION -->
+		<div class="container">
+				<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-footnav  row">
+					<div class=" col-lg-2 col-md-2 col-sm-4 col-xs-6">
+								<div class="t3-module module " id="Mod97"><div class="module-inner"><div class="module-ct">
+
+<div class="custom"  >
+	<h3 class="module-title "><span>Visit Us</span></h3>
+<p>361B <br /> Miranda Street, <br /> Angeles City,<br /> Pampanga<br /> Philippines 2009 <br /><br /> +63 (45) 458 1245<br /> +63 (45) 458 1266<br /> +63 918 967 6267<br /> +63 917 520 6548<br /> +63 925 816 6829</p>
+<p><br /> marketing@imerexplazahotel.com</p>
+<p>sales@imerexplazahotel.com</p>
+<p>&nbsp;</p></div>
+</div></div></div>
+							</div>
+					<div class=" col-lg-2 col-md-2 col-sm-4 col-xs-6">
+								<div class="t3-module module " id="Mod129"><div class="module-inner"><h3 class="module-title "><span>The Hotel</span></h3><div class="module-ct"><ul class="nav  nav-pills nav-stacked ">
+<li class="item-569"><a href="/en/at-a-glance" >At a glance</a></li><li class="item-570"><a href="#" >Careers</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-2 col-md-2 col-sm-4 col-xs-6">
+								<div class="t3-module module " id="Mod130"><div class="module-inner"><h3 class="module-title "><span>Hotel Services</span></h3><div class="module-ct"><ul class="nav  nav-pills nav-stacked ">
+<li class="item-571"><a href="/en/weddings" >Weddings and Events</a></li><li class="item-573"><a href="/en/meetings-and-seminars" >Meetings and Seminars</a></li><li class="item-574"><a href="/en/shuttle-services" >Shuttle Services</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-2 col-md-2 col-sm-6 col-xs-6">
+								<div class="t3-module module " id="Mod131"><div class="module-inner"><h3 class="module-title "><span>Dining</span></h3><div class="module-ct"><ul class="nav  nav-pills nav-stacked ">
+<li class="item-576"><a href="/en/2014-08-20-12-09-31" >7 Beans Cafe</a></li><li class="item-594"><a href="/en/events-promos/bel-posto-ristorante" >Bel Posto Ristorante</a></li><li class="item-619"><a href="/en/events-promos/the-rooftop" >The Roof Top</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<div class="t3-module module " id="Mod181"><div class="module-inner"><h3 class="module-title "><span>Events & Promos</span></h3><div class="module-ct"><ul class="latestnews">
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/events-promos/room-promo/421-banquet-space-for-lease" itemprop="url">
+			<span itemprop="name">Banquet Space for Lease</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/events-promos/room-promo/420-mid-year-sale-2020" itemprop="url">
+			<span itemprop="name">Mid-Year SALE 2020</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/events-promos/room-promo/419-graduation-promo-2020" itemprop="url">
+			<span itemprop="name">Graduation Promo 2020</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/events-promos/bel-posto-ristorante/418-free-special-meal-for-graduates" itemprop="url">
+			<span itemprop="name">Free Special Meal for Graduates</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/events-promos/the-rooftop/417-the-rooftop-lucky-ampao-promo" itemprop="url">
+			<span itemprop="name">The RoofTop Lucky Ampao Promo</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/416-7-beans-lucky-ampao" itemprop="url">
+			<span itemprop="name">7 Beans Lucky Ampao</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/415-7-beans-cafe-unlimited-cold-drink" itemprop="url">
+			<span itemprop="name">7 Beans Cafe Unlimited Cold Drink</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/414-7-beans-cafe-milk-tea" itemprop="url">
+			<span itemprop="name">7 Beans Cafe Milk Tea </span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/413-7-beans-birthday-treat" itemprop="url">
+			<span itemprop="name">7 Beans Birthday Treat</span></a>
+	</li>
+	<li itemscope itemtype="http://schema.org/Article">
+		<a href="/en/7-beans-cafe-promo/412-7-beans-happy-hour" itemprop="url">
+			<span itemprop="name">7 Beans Happy Hour</span></a>
+	</li>
+</ul>
+</div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->		</div>
+		<!-- //FOOT NAVIGATION -->
+
+	<section class="t3-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 copyright ">
+
+
+<div class="custom"  >
+	<p>Copyright © 2017&nbsp;<a title="Imerex Plaza Hotel" href="/en/login" target="_blank">Imerex Plaza Hotel</a>. All Rights Reserved.<br /><br /></p></div>
+
+				</div>
+							</div>
+		</div>
+	</section>
+
+</footer>
+<!-- //FOOTER -->
+</div>
+
+
+</body>
+</html>
