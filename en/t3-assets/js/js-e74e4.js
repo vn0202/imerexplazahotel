@@ -33,7 +33,7 @@ var JCaption=function(c){var e,b,a=function(f){e=jQuery.noConflict();b=f;e(b).ea
 /en/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js
 ================================================================================*/;
 /*!
- * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Bootstrap v3.1.1 (//getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -730,10 +730,10 @@ $('.nav').has('.dropdown-menu').t3menu({duration:mm_duration,timeout:mm_timeout,
 /**
  * Isotope v1.5.26
  * An exquisite jQuery plugin for magical layouts
- * http://isotope.metafizzy.co
+ * //isotope.metafizzy.co
  *
  * Commercial use requires one-time purchase of a commercial license
- * http://isotope.metafizzy.co/docs/license.html
+ * //isotope.metafizzy.co/docs/license.html
  *
  * Non-commercial use is licensed under the MIT License
  *
