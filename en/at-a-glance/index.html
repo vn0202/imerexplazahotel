@@ -132,11 +132,11 @@
                 <!-- LOGO -->
                 <div class="col-xs-8 col-sm-6 col-md-3 logo">
                     <div class="logo-image">
-                        <a href="/en" title="Imerex Plaza Hotel">
-                            <img class="logo-img" src="/en/images/imerex-web-logo-3.png" alt="Imerex Plaza Hotel"/>
-                            <span>Imerex Plaza Hotel</span>
+                        <a href="/en" title="IMEREX">
+                            <img class="logo-img" src="/en/images/imerex-web-logo-3.png" alt="IMEREX"/>
+                            <span>IMEREX</span>
                         </a>
-                        <small class="site-slogan"></small>
+                        <small class="site-slogan">PLAZA HOTEL</small>
                     </div>
                 </div>
                 <!-- //LOGO -->
@@ -148,9 +148,14 @@
                     <div class="navbar-header">
 
 
-                        <button class="btn btn-primary off-canvas-toggle " type="button" data-pos="right"
+                        <button class="btn btn-primary off-canvas-toggle " style="display: flex; align-items: center;justify-content: center" type="button" data-pos="right"
                                 data-nav="#t3-off-canvas" data-effect="off-canvas-effect-2">
-                            <i class="fa fa-bars"></i>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 7H19" stroke="#ffffff" stroke-linecap="round"/>
+                                <path d="M5 12H19" stroke="#ffffff" stroke-linecap="round"/>
+                                <path d="M5 17H19" stroke="#ffffff" stroke-linecap="round"/>
+                            </svg>
+
                         </button>
 
                         <!-- OFF-CANVAS SIDEBAR -->
@@ -167,8 +172,22 @@
                                     <div class="module-inner">
                                         <div class="module-ct">
                                             <ul class="nav  nav-pills nav-stacked ">
-                                                <li class="item-435 parent"><a href="/en/">Home</a></li>
+                                                <li class="item-435 current active deeper dropdown parent"><a
+                                                        class="dropdown-toggle" href="/en/" data-toggle="dropdown">Home<b
+                                                        class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="item-615"><a href="/en/homepage/about-the-hotel">About
+                                                            the Hotel</a></li>
+                                                    </ul>
+                                                </li>
                                                 <li class="item-589 parent"><a href="/en/rooms">Rooms</a></li>
+                                                <li class="item-435 current active deeper dropdown parent"><a
+                                                        class="dropdown-toggle" href="/en/" data-toggle="dropdown">Cities<b
+                                                        class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="item-615"><a href="#">Ha Noi</a></li>
+                                                    </ul>
+                                                </li>
                                                 <li class="item-590"><a href="/en/services">Services</a></li>
                                                 <li class="item-564"><a href="/en/location">Location</a></li>
                                                 <li class="item-565 parent"><a href="/en/events-promos">Events</a></li>
@@ -192,7 +211,7 @@
                     <div class="t3-navbar navbar-collapse collapse">
                         <div class="t3-megamenu animate elastic" data-duration="400" data-responsive="true">
                             <ul class="nav navbar-nav level0">
-                                <li class="dropdown mega" data-id="435" data-level="1">
+                                <li class="current active dropdown mega" data-id="435" data-level="1">
                                     <a class=" dropdown-toggle" href="/en/" data-target="#" data-toggle="dropdown">Home
                                         <b class="caret"></b></a>
 
@@ -249,6 +268,34 @@
                                                                    data-target="#">Honeymoon Suite </a>
 
                                                             </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown mega" data-id="589" data-level="1">
+                                    <a class=" dropdown-toggle" href="/en/rooms" data-target="#" data-toggle="dropdown">Cities
+                                        <b class="caret"></b></a>
+
+                                    <div class="nav-child dropdown-menu mega-dropdown-menu">
+                                        <div class="mega-dropdown-inner">
+                                            <div class="row">
+                                                <div class="col-xs-12 mega-col-nav" data-width="12">
+                                                    <div class="mega-inner">
+                                                        <ul class="mega-nav level1">
+                                                            <li data-id="591" data-level="2">
+                                                                <a class="" href="#"
+                                                                   data-target="#">Hà Nội </a>
+
+                                                            </li>
+                                                            <li data-id="591" data-level="2">
+                                                                <a class="" href="#"
+                                                                   data-target="#">Hồ Chí Minh </a>
+
+                                                            </li>
+
                                                         </ul>
                                                     </div>
                                                 </div>

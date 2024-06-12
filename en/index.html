@@ -51,29 +51,7 @@
     </script>
 
 
-    <!-- META FOR IOS & HANDHELD -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <style type="text/stylesheet">
-        @-webkit-viewport {
-            width: device-width;
-        }
-
-        @-moz-viewport {
-            width: device-width;
-        }
-
-        @-ms-viewport {
-            width: device-width;
-        }
-
-        @-o-viewport {
-            width: device-width;
-        }
-
-        @viewport {
-            width: device-width;
-        }
-    </style>
     <script type="text/javascript">
         //<![CDATA[
         if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
@@ -96,28 +74,39 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- You can add Google Analytics here or use T3 Injection feature -->
-    <!--Start of Zopim Live Chat Script-->
-    <script type="text/javascript">
-        window.$zopim || (function (d, s) {
-            var z = $zopim = function (c) {
-                z._.push(c)
-            }, $ = z.s =
-                d.createElement(s), e = d.getElementsByTagName(s)[0];
-            z.set = function (o) {
-                z.set._.push(o)
-            };
-            z._ = [];
-            z.set._ = [];
-            $.async = !0;
-            $.setAttribute('charset', 'utf-8');
-            $.src = '//v2.zopim.com/?21I6FDh8lFJxgyEVixv7RU7Z928WNb45';
-            z.t = +new Date;
-            $.type = 'text/javascript';
-            e.parentNode.insertBefore($, e)
-        })(document, 'script');
-    </script>
-    <!--End of Zopim Live Chat Script-->
+
+    <style>
+        .list-articles-container {
+            background: #575757;
+            padding: 60px 0;
+        }
+        .list-articles{
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+
+        }
+        .article-item a{
+            padding: 4px 0;
+            display: inline-block;
+            color: white;
+        }
+        .list-articles-heading{
+            text-align: center;
+            font-size: 36px;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        @media screen and (max-width: 768px) {
+            .list-articles{
+                width: 100%;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -150,9 +139,14 @@
                     <div class="navbar-header">
 
 
-                        <button class="btn btn-primary off-canvas-toggle " type="button" data-pos="right"
+                        <button class="btn btn-primary off-canvas-toggle " style="display: flex; align-items: center;justify-content: center" type="button" data-pos="right"
                                 data-nav="#t3-off-canvas" data-effect="off-canvas-effect-2">
-                            <i class="fa fa-bars"></i>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 7H19" stroke="#ffffff" stroke-linecap="round"/>
+                                <path d="M5 12H19" stroke="#ffffff" stroke-linecap="round"/>
+                                <path d="M5 17H19" stroke="#ffffff" stroke-linecap="round"/>
+                            </svg>
+
                         </button>
 
                         <!-- OFF-CANVAS SIDEBAR -->
@@ -178,6 +172,13 @@
                                                     </ul>
                                                 </li>
                                                 <li class="item-589 parent"><a href="/en/rooms">Rooms</a></li>
+                                                <li class="item-435 current active deeper dropdown parent"><a
+                                                        class="dropdown-toggle" href="/en/" data-toggle="dropdown">Cities<b
+                                                        class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="item-615"><a href="#">Ha Noi</a></li>
+                                                    </ul>
+                                                </li>
                                                 <li class="item-590"><a href="/en/services">Services</a></li>
                                                 <li class="item-564"><a href="/en/location">Location</a></li>
                                                 <li class="item-565 parent"><a href="/en/events-promos">Events</a></li>
@@ -258,6 +259,34 @@
                                                                    data-target="#">Honeymoon Suite </a>
 
                                                             </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown mega" data-id="589" data-level="1">
+                                    <a class=" dropdown-toggle" href="/en/rooms" data-target="#" data-toggle="dropdown">Cities
+                                        <b class="caret"></b></a>
+
+                                    <div class="nav-child dropdown-menu mega-dropdown-menu">
+                                        <div class="mega-dropdown-inner">
+                                            <div class="row">
+                                                <div class="col-xs-12 mega-col-nav" data-width="12">
+                                                    <div class="mega-inner">
+                                                        <ul class="mega-nav level1">
+                                                            <li data-id="591" data-level="2">
+                                                                <a class="" href="#"
+                                                                   data-target="#">Hà Nội </a>
+
+                                                            </li>
+                                                            <li data-id="591" data-level="2">
+                                                                <a class="" href="#"
+                                                                   data-target="#">Hồ Chí Minh </a>
+
+                                                            </li>
+
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -362,8 +391,56 @@
 
                 </div>
 
+
             </div>
 
+        </div>
+        <div class='list-articles-container' >
+           <div class="list-articles-heading" >
+               New articles
+           </div>
+            <ul class="list-articles" style="list-style: none; padding: 0">
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-21-chauffagiste-de-gard.p223">
+                        Les 21 chauffagiste de Gard
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-21-agents-de-voyage-de-gard.p222">
+                        Les 21 agents de voyage de Gard
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-41-taxis-de-gard.p221">
+                        Les 41 taxis de Gard
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-38-veterinaires-de-gard.p220">
+                        Les 38 vétérinaires de Gard
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-10-clinique-dentaire-de-gard.p219">
+                        Les 10 clinique dentaire de Gard
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-13-traiteurs-de-gard.p218">
+                        Les 13 traiteurs de Gard
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-16-serrurier-autour-de-gard.p217">
+                        Les 16 serrurier autour de Gard
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://restaurantlegandhi.com/post/les-37-pizzas-de-gard.p216">
+                        Les 37 pizzas de Gard
+                    </a>
+                </li>
+            </ul>
         </div>
 
     </div>
